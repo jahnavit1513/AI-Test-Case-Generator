@@ -1,0 +1,29 @@
+{
+    "feature": "Login",
+    "test_cases": [
+        {
+            "id": "LOGIN_001",
+            "scenario": "Login with valid credentials",
+            "type": "Functional",
+            "priority": "High"
+        },
+        {
+            "id": "LOGIN_002",
+            "scenario": "Login with invalid password",
+            "type": "Negative",
+            "priority": "High"
+        },
+        {
+            "id": "LOGIN_003",
+            "scenario": "Login with empty email",
+            "type": "Negative",
+            "priority": "High"
+        },
+        {
+            "id": "LOGIN_004",
+            "scenario": "Login with empty password",
+            "type": "Negative",
+            "priority": "High"
+        }
+    ]
+}
